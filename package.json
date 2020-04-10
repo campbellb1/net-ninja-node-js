@@ -4,7 +4,7 @@
   "description": "a little todo app",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "app.js"
   },
   "author": "Brandi",
   "license": "ISC",
