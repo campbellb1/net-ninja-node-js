@@ -4,8 +4,8 @@
   "description": "a little todo app",
   "main": "app.js",
   "scripts": {
-    "start": "app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "npm run build",
+    "start": "node app.js"
   },
   "author": "Brandi",
   "license": "ISC",
