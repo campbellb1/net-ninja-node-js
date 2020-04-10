@@ -4,7 +4,6 @@
   "description": "a little todo app",
   "main": "app.js",
   "scripts": {
-    "postinstall": "npm run build",
     "start": "node app.js"
   },
   "author": "Brandi",
