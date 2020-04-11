@@ -1,5 +1,6 @@
 var express = require('express');
-var todoController = require('.\\controllers\\todoController');
+var path = require('path');
+var todoController = require(path.join(__dirname, '/controllers/todoController'));
 
 var app = express();
 
